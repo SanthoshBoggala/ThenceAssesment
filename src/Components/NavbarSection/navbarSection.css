@@ -1,0 +1,32 @@
+.navbarOuterDiv {
+    background-color: aliceblue;
+}
+.navbarInnerDiv {
+    margin: 5px 10px;
+    padding: 6px 12px;
+    border: 1.31px solid #EAEAEA;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 90%;
+    cursor: pointer;
+}
+
+.endNavbar {
+    text-align: end;
+}
+.getProjects {
+    background: white;  
+    margin-right: 10px; 
+}
+.getProjects:hover {
+    background: #F1F1F1;
+}
+.onBoard {
+    background-color: black;
+    color: #F1F1F1;
+}
