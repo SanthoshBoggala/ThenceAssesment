@@ -1,14 +1,25 @@
 .myAccord {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #D7D7D7;
+    width: 100%;
 }
 .accordTop {
     font-size: 18px;
+    padding: 2px 0px 10px 3px;
     cursor: pointer;
-    background-color: aqua;
+
     display: flex; 
     justify-content: space-between;
     align-items: center; 
 }
+.accordBtn {
+    padding-right: 15px;
+    font-size: 25px;
+}
 .accordContent {
-
+    font-family: Manrope;
+    padding: 2px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 5px;
 }

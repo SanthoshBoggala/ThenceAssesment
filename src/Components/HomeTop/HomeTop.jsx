@@ -3,17 +3,16 @@ import'./homeTop.css'
 
 const HomeTop = () => {
   return (
-    <div className='homeTop'>
-      <div className='homeTopMid'>
-        <div>
-          S50099 994224
+      <div className='homeTop'>
+        <div className='number'>
+          Success Stories
         </div>
-        <div>
+        <div className='someQuate'>
           Every Success journey <br />
           We've encountered.
         </div>
       </div>
-    </div>
+        
   )
 }
 

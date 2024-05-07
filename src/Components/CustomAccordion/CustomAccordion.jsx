@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './customAccordion.css'
 
-const CustomAccordionItem = ({ id, title, content }) => {
+const CustomAccordionItem = ({ title, content }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleAccordion = () => {
@@ -14,12 +14,12 @@ const CustomAccordionItem = ({ id, title, content }) => {
                 className='accordTop'
                 onClick={toggleAccordion}
             >
-                <div>accordHeading</div>
-                <div>{isOpen ? "-" : "+"}</div>
+                <div>{title}</div>
+                <div className='accordBtn'>{isOpen ? "-" : "+"}</div>
             </div>
             { isOpen && (
                 <div className='accordContent'>
-                    accordContent accordContent accordContent vvaccordContentaccordContentvvaccordContentvv accordContentv
+                    {content}
                 </div>
             ) }
         </div>

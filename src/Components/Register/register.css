@@ -1,0 +1,115 @@
+.register {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerForm {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.formheading {
+    font-family: 'Covered By Your Grace';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    color: #2DA950;
+}
+
+.quate {
+    font-family: 'Manrope';
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 5px;
+}
+
+.inputs {
+    margin-bottom: 5px;
+    background: #EFEFEF;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27.32px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.error {
+    color: #FF0808;
+    font-family: Manrope;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.submit {
+    background: linear-gradient(97.55deg, #c4c4c4 2.63%, #c5c5c5 105.2%),
+        linear-gradient(0deg, #d4d3d3, #C9C9C9);
+    width: 100%;
+    border: none;
+    cursor: not-allowed !important;
+    color: white;
+}
+
+.submitNow {
+    font-family: Manrope;
+    background: #1C1C1C;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.submitNow:hover {
+   background-color: #4E4E4E;
+}
+
+.successDiv {
+    text-align: center;
+}
+
+.successDiv>div {
+    margin-bottom: 5px;
+}
+
+.success {
+    font-family: Covered By Your Grace;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    color: #2DA950;
+
+}
+
+.congrats {
+    font-family: Manrope;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    color: #1C1C1C;
+}
+
+.successText {
+    font-family: Manrope;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 35.1px;
+    color: #727272;
+}
+
+.redirect {
+    margin-top: 100px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+
+.redirect>span {
+    color: black;
+}

@@ -1,0 +1,146 @@
+.homeToMid {
+    margin-bottom: 100px;
+}
+.homeMid {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    padding: 40px 10px;
+}
+
+.hero > img {
+    border-radius: 30px;
+    width: 60%;
+}
+.carouselDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reduceProjectTime {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 25px;
+    width: 250px;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+.bigPercentage {
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 76.8px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1C1C1C;
+}
+
+.reduceProjectTime>img {
+    position: absolute;
+    top: -12%;
+    left: -7%;
+}
+
+.reduceProjectTimeText {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    color: #828282;
+}
+
+
+.staff {
+    background-color: #FFFFFF;;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+
+    position: absolute;
+    top: 70%;
+    left: 18%;
+}
+
+.staffTextDiv {
+    margin-left: 10px;
+}
+
+.staffTextDays {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+    text-align: left;
+}
+
+.staffText {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: #828282;
+
+}
+
+
+.clientExpense {
+    width: 250px;
+    padding: 20px;
+    background: #002E18;
+    border-radius: 30px;
+
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+}
+.million {
+    font-family: Switzer;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 76.05px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.million>span {
+    font-family: Switzer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31.94px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #A6A3A0;
+}
+
+.clientExpenseText {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    color: #CCCCCC;
+}
+
+.exploreMore {
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+}
+.exploreMore > button {
+    background-color: black;
+    color: #F1F1F1;
+}
+.exploreMore > button:hover {
+    background-color: #4E4E4E;
+}

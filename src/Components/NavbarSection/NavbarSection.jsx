@@ -1,8 +1,12 @@
 import React from 'react'
 import logo from '../../Images/logo.svg'
 import './navbarSection.css'
+import close from '../../Images/img_close.svg'
+import { useNavigate } from 'react-router-dom'
 
-const NavbarSection = () => {
+const NavbarSection = ({ regis = false, redirect = true }) => {
+    const navigate = useNavigate()
+
     return (
         <nav class="navbar sticky-top bg-body-tertiary navbarOuterDiv">
             <div className='container-fluid navbarInnerDiv'>
@@ -14,16 +18,33 @@ const NavbarSection = () => {
                     />
                 </div>
                 <div className=''>
-                    <button
-                        className='myBtn getProjects'
-                    >
-                        Get Projects
-                    </button>
-                    <button
-                        className='myBtn onBoard'
-                    >
-                        OnBoard Talent
-                    </button>
+                    {!regis ? (
+                        <>
+                            <button
+                                className='myBtn getProjects'
+                                onClick={()=> navigate('/register')}
+                            >
+                                Get Projects
+                            </button>
+                            <button
+                                className='myBtn onBoard'
+                            >
+                                OnBoard Talent
+                            </button>
+                        </>)
+                        : (
+                            <>
+                                {redirect && (
+                                    <img
+                                        src={close}
+                                        alt='closebtn'
+                                        className='close'
+                                        onClick={()=> navigate('/')}
+                                    />
+                                )}
+                            </>
+                        )
+                    }
                 </div>
             </div>
         </nav>
