@@ -1,0 +1,16 @@
+.homeEnd {
+    margin: 20px 10px 10px 10px;
+    background-color: #E8EEE7;
+    position: relative;
+}
+.raiseQuestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.union {
+    position: absolute;
+    width: 20%;
+    left: 3%;
+    bottom: 3%;
+}

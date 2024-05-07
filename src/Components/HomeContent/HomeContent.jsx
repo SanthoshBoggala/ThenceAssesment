@@ -1,10 +1,13 @@
 import React from 'react'
 import './homeContent.css'
+import HomeTop from '../HomeTop/HomeTop'
+import HomeEnd from '../HomeEnd/HomeEnd'
 
 const HomeContent = () => {
   return (
     <div className='HomeContent'>
-      HomeContent
+      <HomeTop />
+      <HomeEnd />
     </div>
   )
 }
